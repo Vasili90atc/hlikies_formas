@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body 
+{
+background-color: #1C837C;
+}
+
+.flex-outer li,
+
+.flex-inner {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+}
+.flex-outer > li > label,
+
+.flex-outer li p {
+
+  flex: 1 100px;
+
+  max-width: 220px;
+
+}
+
+.flex-outer > li > label + *,
+
+.flex-inner {
+
+  flex: 1 100px;
+
+}
+
+.flex-outer li button {
+
+  margin-left: auto;
+
+  padding: 8px 16px;
+
+  border: none;
+
+  background: #333;
+
+  color: #f2f2f2;
+
+  text-transform: uppercase;
+
+  letter-spacing: .09em;
+
+  border-radius: 100px;
+
+}
+.flex-inner li {
+
+  width: 25%;
+
+}
+
+.flex-inner {
+
+  justify-content: space-between;
+
+}
+
+
+</style>
+
+<meta charset="utf-8">
+<head> form</head>
+
+      
+ <body>
+<p style = "background-color:#12B618">
+  <form>
+  <ul class="flex-outer">
+  <li>
+     <label for="FIRSTNAME">FIRST NAME</label>
+   <input type ="text" id="FIRST NAME" placeholder="Enter your first name here">
+   </li>
+   
+   <li>
+    <label for="LASTNAME">LAST NAME</label>
+   <input type ="text" id="LAST NAME" placeholder="Enter your last name here">
+   </li>
+   
+    <li>
+	 <label for="EMAIL">EMAIL</label>
+    <input type ="text" id="user-email" placeholder="Enter your email here">
+  </li>
+  
+  <li>
+   <label for="PHONE">PHONE</label>
+  <input type ="tel" id="phone" placeholder=" Enter your phone here">
+  </li>
+  
+   <li>
+    <label for="MESSAGE">MESSAGE</label>
+    <textarea rows="6"  id ="message"   placeholder="Enter message here" ></textarea>
+  </li>
+  
+
+<li>
+<p> AGE: </p>
+<p>
+ <ul class="flex-inner">
+   <li>
+    <input type="checkbox" id="twenty-to-twentynine">
+    <label for="twenty-to-twentynine">20-29</label>
+  </li>
+
+  <li>
+    <input type="checkbox" id="thirty-to-thirtynine">
+    <label for="thirty-to-thirtynine">30-39</label>
+  </li>
+  <li>
+    <input type="checkbox" id="forty-to-twentynine">
+    <label for="twenty-to-twentynine">40-49</label>
+  </li>
+
+  <li>
+    <input type="checkbox" id="fifty-to-twentynine">
+    <label for="thirty-to-thirtynine">50-59</label>
+  </li>
+  
+   <li>
+    <input type="checkbox" id="sixty-to-twentynine">
+    <label for="thirty-to-thirtynine">60-69</label>
+  </li>
+
+ <li>
+    <input type="checkbox" id="OTHER">
+    <label for="OTHER">OTHER</label>
+  </li>
+ 
+ </ul>
+ </li>
+<li>
+<button type="SUBMIT">SUBMIT</button>
+</li>
+</ul>
+</p>
+
+  </form>
+  </body>
+</html>
